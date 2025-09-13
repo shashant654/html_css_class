@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Form Example</title>
+</head>
+<body>
+
+  <!-- 1. form -->
+  <form action="/submit" method="post">
+
+    <!-- 2. input (many types) -->
+    <!-- Text -->
+    <label>Text: <input type="text" name="username"></label><br>
+
+    <!-- Password -->
+    <label>Password: <input type="password" name="password"></label><br>
+
+    <!-- Email -->
+    <label>Email: <input type="email" name="email"></label><br>
+
+    <!-- Number -->
+    <label>Number: <input type="number" name="age" min="1" max="100"></label><br>
+
+    <!-- Date -->
+    <label>Date: <input type="date" name="dob"></label><br>
+
+    <!-- Time -->
+    <label>Time: <input type="time" name="meeting"></label><br>
+
+    <!-- Checkbox -->
+    <label><input type="checkbox" name="subscribe"> Subscribe</label><br>
+
+    <!-- Radio -->
+    <label><input type="radio" name="gender" value="male"> Male</label>
+    <label><input type="radio" name="gender" value="female"> Female</label><br>
+
+    <!-- File -->
+    <label>Upload: <input type="file" name="file"></label><br>
+
+    <!-- Hidden -->
+    <input type="hidden" name="token" value="12345">
+
+    <!-- Color -->
+    <label>Pick Color: <input type="color" name="favcolor"></label><br>
+
+    <!-- Range -->
+    <label>Range: <input type="range" min="0" max="10" name="volume"></label><br>
+
+    <!-- URL -->
+    <label>Website: <input type="url" name="website"></label><br>
+
+    <!-- Search -->
+    <label>Search: <input type="search" name="query"></label><br>
+
+    <!-- Telephone -->
+    <label>Phone: <input type="tel" name="phone"></label><br>
+
+    <!-- Reset -->
+    <input type="reset" value="Reset"><br>
+
+    <!-- Submit -->
+    <input type="submit" value="Submit">
+
+    <!-- 3. textarea -->
+    <br><label>Message:<br>
+      <textarea name="message" rows="4" cols="30"></textarea>
+    </label><br>
+
+    <!-- 4. select + option + optgroup -->
+    <label>Choose fruit:
+      <select name="fruit">
+        <optgroup label="Citrus">
+          <option>Orange</option>
+          <option>Lemon</option>
+        </optgroup>
+        <optgroup label="Berries">
+          <option>Strawberry</option>
+          <option>Blueberry</option>
+        </optgroup>
+      </select>
+    </label><br>
+
+    <!-- 5. datalist -->
+    <label>Choose a browser:
+      <input list="browsers" name="browser">
+    </label>
+    <datalist id="browsers">
+      <option value="Chrome">
+      <option value="Firefox">
+      <option value="Edge">
+      <option value="Safari">
+    </datalist><br>
+
+    <!-- 6. fieldset + legend -->
+    <fieldset>
+      <legend>Login Info</legend>
+      <label>Username: <input type="text" name="user"></label><br>
+      <label>Password: <input type="password" name="pass"></label>
+    </fieldset><br>
+
+    <!-- 7. label -->
+    <label for="agree">I agree to terms</label>
+    <input type="checkbox" id="agree" name="agree"><br>
+
+    <!-- 8. button -->
+    <button type="button" onclick="alert('Hello!')">Click Me</button>
+    <button type="submit">Submit Form</button>
+
+  </form>
+
+</body>
+</html>

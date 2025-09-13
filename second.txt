@@ -1,0 +1,23 @@
+3. Desktop application => it opens in computer.
+=> it does not require any internet connection.
+Ex: notepad, Ms word, Excel .
+
+
+1. ctrl + c => copy
+2. ctrl + v => paste
+3. ctrl + a => select all
+4. ctrl + z => undo
+5. ctrl + y => redo
+6. ctrl + Backspace => One word direct delete
+7. ctrl + L => select current line
+8. shift + left/right/up/down ARROW => select multiple lines of code 
+
+9. ctrl + shift + c => inspect
+10. alt + up/down => move current line up or down
+11. ctrl + enter => enter new line
+12. ctrl + x => cut one line of code
+13. windwo + v => show copy history
+14. ctrl + / => commnet code 
+
+NOTE: by using double click we can select any thing
+## Commnents => it is just like non readable code , and it is used to describe code or code logic.
